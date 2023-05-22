@@ -445,11 +445,23 @@ footer .icon img{
     padding: 5px;
 }
 
-footer p{
+footer
+.condution
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
     margin-top: -100px;
     right: 20px;
     font-family: "Cantarell";
     font-size: 12px;
     margin-right: 22%;
     margin-left: 600px;
+}
+footer
+.condution
+a{
+    text-decoration: none;
+    color: #fff;
 }

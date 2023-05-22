@@ -8,6 +8,10 @@
     --bleu3-color:#021740;
 }
 
+div, nav{
+    border: 1px solid #fff;
+}
+
 @font-face{
     font-family: 'beyno';
     src: url(../font/beyno.ttf);
@@ -33,11 +37,11 @@
 }
   
 ::-webkit-scrollbar-track {
-    background-color: #414040;
+    background-color: #121931;
 }
   
 ::-webkit-scrollbar-thumb {
-    background-color: #888;
+    background-color: #ffffff;
     border-radius: 5px;
 }
 
@@ -49,7 +53,7 @@ html{
 }
 
 html{
-    background-image: url(../illustration/ofpages/arrière_plan.png);
+    background-image: url(../illustration/ofpages/background.png);
  
     background-color: rgb(138, 134, 134);
 }
@@ -60,17 +64,23 @@ body{
 
 }
 
+header{
+    background: linear-gradient(80deg,#025099,#000d27);
+}
+
+
+
+
 
 nav{
     margin-left: 102px;
     height: 50px;
     display: flex;
-    margin-bottom: 10px;
-    margin-top: 30px;
     align-items: center;
     justify-content: space-between;
     padding: 30px 0;
     margin-right: 100px;
+    background: linear-gradient(80deg,#01428b,#021740);
 }
 
 ul li a{
@@ -108,6 +118,65 @@ ul li a:hover{
     margin-top: 15px;
 }
 
+h1{
+    font-family: "beyno";
+    font-size: 58px;
+    color: #9e91b7;
+}
+
+h2{
+    font-family: "beyno";
+    font-size: 32px;
+    color: #9e91b7;
+}
+#wakanda{
+    height: 700px;
+    background-image: url(../illustration/wakanda/Pantherwakanda1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#wakanda
+.container
+.content {
+    margin-left: 150px;
+    margin-top: 200px;
+}
+
+#wakanda{
+    height: 700px;
+    background-image: url(../illustration/wakanda/Pantherwakanda1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#wakanda
+.container
+.content {
+    margin-left: 150px;
+    margin-top: 200px;
+}
+
+main h2{
+    font-family: "wakanda";
+    font-size: 32px;
+    color: #9e91b7;
+}
+
+p{
+    font-family: "Cantarell";
+    font-size: 16px;
+    padding: 20px 0;
+    text-align: justify;
+    color: var(--White-color);
+}
+
+.big-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+
 
 /*style de footer*/
 
@@ -116,7 +185,7 @@ footer{
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
-    color: #fff;
+    color: var(--White-color);
 }
 
 footer .footer {
@@ -159,7 +228,7 @@ footer .footer_content{
 
 footer .footer_text ul li a{
     text-decoration: none;
-    color: #fff;
+    color: var(--White-color);
     font-family: "Cantarell";   
 }
 
@@ -185,15 +254,31 @@ footer .footer_text h2{
 .icon{
 margin-right: 120px;
 margin-top: 40px;
+width: 100%;
 }
+
 footer .icon img{
     padding: 5px;
 }
 
-footer p{
+footer
+.condution
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
     margin-top: -100px;
-    text-align: right;
-    font-family: "Cantarell" ;
+    right: 20px;
+    font-family: "Cantarell";
     font-size: 12px;
     margin-right: 22%;
+    margin-left: 600px;
+}
+
+footer
+.condution
+a{
+    text-decoration: none;
+    color: #fff;
 }
