@@ -1,0 +1,199 @@
+:root{
+    --White-color:#fff;
+    --Gray-color:#f2cef2;
+    --Violet-color:#9e91b7;
+    --Rose-color:#df99f2;
+    --Bleu1-color:#3d2da6;
+    --Bleu2-color:#07338c;
+    --bleu3-color:#021740;
+}
+
+@font-face{
+    font-family: 'beyno';
+    src: url(../font/beyno.ttf);
+}
+
+@font-face{
+    font-family: 'cantarell';
+    src: url(../font/Cantarell-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'panthera';
+    src: url(../font/Panthera.ttf);
+}
+
+@font-face{
+    font-family: 'wakanda';
+     src: url(../font/WakandaForever-Regular.ttf);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    background-color: #414040;
+}
+  
+::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 5px;
+}
+
+html{
+    position: relative;
+    z-index: 1;
+    background-color: rgb(28, 28, 29);
+    
+}
+
+html{
+    background-image: url(../illustration/ofpages/arrière_plan.png);
+ 
+    background-color: rgb(138, 134, 134);
+}
+
+body{
+    position: relative;
+    z-index: 2;
+
+}
+
+
+nav{
+    margin-left: 102px;
+    height: 50px;
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+    margin-right: 100px;
+}
+
+ul li a{
+    color: white;
+}
+
+ul li{
+    font-family: 'beyno';
+    display: inline-flex;
+    margin-right: 50px;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: var(--Bleu1-color);
+}
+
+.logo{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+
+.scroll{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    left: 40px;
+    top: 230px;
+    z-index: 10;
+    
+}
+
+.scroll img{
+    margin-top: 15px;
+}
+
+
+/*style de footer*/
+
+footer{
+    background-image: url(../illustration/ofpages/back_footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    color: #fff;
+}
+
+footer .footer {
+    margin-top: 150px;
+}
+
+.footer, .footer .footer_text{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footer .footer_text{
+    align-items: center;
+    width: 50%;
+}
+
+.image1{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    z-index: 3;
+}
+
+.image2{
+    position: absolute;
+    z-index: 4;
+    left: 250px;
+}
+
+footer .footer_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./Illustrations/Logo/footer1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+    width: 50%;
+}
+
+footer .footer_text ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: "Cantarell";   
+}
+
+footer .footer_text ul li{
+    display: block;
+    text-decoration: none;
+}
+
+footer .footer_text h2{
+    text-decoration: none;
+    font-family: "Cantarell" ;
+    font-size: 16px;
+    letter-spacing: 28%;
+}
+
+.down{
+    margin-left: 0;
+    font-family: 'cantarell';
+    font-size: 22px;
+    color: #fff;
+}
+
+.icon{
+margin-right: 120px;
+margin-top: 40px;
+}
+footer .icon img{
+    padding: 5px;
+}
+
+footer p{
+    margin-top: -100px;
+    text-align: right;
+    font-family: "Cantarell" ;
+    font-size: 12px;
+    margin-right: 22%;
+}
