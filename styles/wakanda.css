@@ -8,8 +8,8 @@
     --bleu3-color:#021740;
 }
 
-div, nav{
-    border: 1px solid #fff;
+div{
+    border: 1px solid #ffffff00;
 }
 
 @font-face{
@@ -30,6 +30,10 @@ div, nav{
 @font-face{
     font-family: 'wakanda';
      src: url(../font/WakandaForever-Regular.ttf);
+}
+
+.espace-vertical{
+    height: 100px;
 }
 
 ::-webkit-scrollbar {
@@ -65,12 +69,8 @@ body{
 }
 
 header{
-    background: linear-gradient(80deg,#025099,#000d27);
+    background: linear-gradient(80deg,#014ca1,#000d27);
 }
-
-
-
-
 
 nav{
     margin-left: 102px;
@@ -80,19 +80,20 @@ nav{
     justify-content: space-between;
     padding: 30px 0;
     margin-right: 100px;
-    background: linear-gradient(80deg,#01428b,#021740);
+    background: linear-gradient(80deg,#014ca1,#01143a);
 }
 
-ul li a{
+header ul li a{
     color: white;
 }
 
-ul li{
+header ul li{
     font-family: 'beyno';
     display: inline-flex;
     margin-right: 50px;
     text-decoration: none;
 }
+
 ul li a:hover{
     color: var(--Bleu1-color);
 }
@@ -129,6 +130,7 @@ h2{
     font-size: 32px;
     color: #9e91b7;
 }
+
 #wakanda{
     height: 700px;
     background-image: url(../illustration/wakanda/Pantherwakanda1.jpg);
@@ -159,23 +161,78 @@ h2{
 
 main h2{
     font-family: "wakanda";
-    font-size: 32px;
+    font-size: 25px;
     color: #9e91b7;
 }
 
+
 p{
     font-family: "Cantarell";
-    font-size: 16px;
+    font-size: 12px;
     padding: 20px 0;
-    text-align: justify;
+    text-align: left;
     color: var(--White-color);
+    width: 70%;
 }
 
 .big-box{
-    display: flex;
-    justify-content: space-between;
+    background-image: url(../illustration/Wakanda/Pantherwakanda2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
 }
 
+
+
+.big-box{
+    display: inline-flex;
+    
+}
+
+.big-box
+.content
+.link a{
+    font-family: 'cantarell';
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.link{
+    background-color: var(--Bleu1-color);
+    height: 300px;
+    width: 443px;
+}
+
+.content{
+    margin-left: 150px;
+    margin-top: 150px;
+}
+
+.big-box
+.content p{
+    width: 56%;
+}
+
+.content1{
+    margin-top: 150px;
+    margin-left: 15px;
+    margin-left: -150px;
+}
+
+.content1 p{
+    width: 80%;
+}
+
+.big-box
+h2{
+    font-family: 'beyno';
+}
+
+.big-box
+img{
+    width: 420px;
+    height: 300px;
+}
 
 
 /*style de footer*/
@@ -268,11 +325,11 @@ footer
     align-items: center;
     justify-content: space-between;
    
-    margin-top: -100px;
+    margin-top: -10px;
     right: 20px;
     font-family: "Cantarell";
     font-size: 12px;
-    margin-right: 22%;
+    margin-right: 20%;
     margin-left: 600px;
 }
 

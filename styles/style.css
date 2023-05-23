@@ -7,6 +7,9 @@
     --Bleu2-color:#07338c;
     --bleu3-color:#021740;
 }
+*{
+    border: 1px solid #fff;
+}
 
 @font-face{
     font-family: 'beyno';
@@ -94,11 +97,11 @@ nav{
     margin-right: 100px;
 }
 
-ul li a{
+header ul li a{
     color: white;
 }
 
-ul li{
+header ul li{
     font-family: 'beyno';
     display: inline-flex;
     margin-right: 50px;
@@ -253,11 +256,11 @@ margin-top: 30px;
     height: 30px;
     border-radius: 5px;
     background-color: var(--Bleu1-color);
+
 }
 
 #carte-identité .carte ul{
     display: inline-flex;
-    white-space: 1px;
 }
 
 #carte-identité .carte .TChalla img{
@@ -376,7 +379,7 @@ footer .footer {
     margin-top: 150px;
 }
 
-.footer, .footer .footer_text{
+.footer, .footer .footer{
     display: flex;
     justify-content: space-between;
 }
@@ -421,11 +424,12 @@ footer .footer_text ul li{
     text-decoration: none;
 }
 
-footer .footer_text h2{
+footer .footer h2{
     text-decoration: none;
     font-family: "Cantarell" ;
     font-size: 16px;
-    letter-spacing: 28%;
+    letter-spacing: 0.28em;
+    justify-content: space-between;
 }
 
 .down{
@@ -451,7 +455,6 @@ footer
     display: flex;
     align-items: center;
     justify-content: space-between;
-   
     margin-top: -100px;
     right: 20px;
     font-family: "Cantarell";
@@ -459,9 +462,24 @@ footer
     margin-right: 22%;
     margin-left: 600px;
 }
+
+
+.page{
+  margin-left: -120px ;
+}
+
 footer
-.condution
 a{
     text-decoration: none;
     color: #fff;
+}
+
+footer 
+ul{
+    font-family: 'cantarell';
+}
+
+footer 
+ul li{
+    display:flex;
 }
