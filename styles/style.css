@@ -104,6 +104,7 @@ header ul li{
     margin-right: 50px;
     text-decoration: none;
 }
+
 ul li a:hover{
     color: var(--Bleu1-color);
 }
@@ -376,7 +377,7 @@ footer .footer {
     margin-top: 150px;
 }
 
-.footer, .footer .footer{
+.footer, .footer .footer_text{
     display: flex;
     justify-content: space-between;
 }
@@ -421,12 +422,11 @@ footer .footer_text ul li{
     text-decoration: none;
 }
 
-footer .footer h2{
+footer .footer_text h2{
     text-decoration: none;
     font-family: "Cantarell" ;
     font-size: 16px;
-    letter-spacing: 0.28em;
-    justify-content: space-between;
+    letter-spacing: 28%;
 }
 
 .down{
@@ -452,14 +452,21 @@ footer
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: -100px;
+   
+    margin-top: -10px;
     right: 20px;
     font-family: "Cantarell";
     font-size: 12px;
-    margin-right: 22%;
+    margin-right: 20%;
     margin-left: 600px;
 }
 
+footer
+.condution
+a{
+    text-decoration: none;
+    color: #fff;
+}
 
 .page{
   margin-left: -120px ;
@@ -479,4 +486,120 @@ ul{
 footer 
 ul li{
     display:flex;
+}
+/*responsive mobile*/
+
+@media (max-width: 767px) {
+  html {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--Gray-color);
+  }
+
+  #slider-multimedia{
+    display: flex;
+    background-color: #030e31d5;
+}
+
+  p{
+    color: #fff;
+  }
+  html img{
+    size: 40%;
+  }
+
+  body {
+    background-color: var(--Gray-color);
+    width: 100px;
+  }
+
+ nav{
+    height: 10px;
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+
+footer{
+    width: 200px;
+    height: 300px;
+}
+
+/* Réorganisation du navigation pour un affichage vertical sur mobile */
+nav ul {
+  display: flex;
+}
+
+/* Ajustement la taille du logo */
+.logo {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+/* Réduction la taille des images des réseaux sociaux */
+.scroll img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Ajustement de la taille du texte principal */
+.content h1 {
+  font-size: 24px;
+  color: #fff;
+}
+
+.content h2 {
+  font-size: 20px;
+  color: #fff;
+}
+
+.content p {
+  font-size: 16px;
+  color: #fff;
+}
+
+/* Réorganiseation des images du slider */
+.slider-image img {
+  width: 100%;
+  height: auto;
+}
+
+/* Ajustement de la taille du texte dans le slider */
+.slider-content h2 {
+  font-size: 20px;
+}
+
+.slider-content p {
+  font-size: 16px;
+}
+
+/* Réorganiser la carte d'identité */
+.carte {
+  display: flex;
+  flex-direction: column;
+}
+
+.info h3 {
+  font-size: 20px;
+  color: #fff;
+}
+
+.info ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.info li {
+  margin-bottom: 10px;
+}
+
+.info p {
+  font-size: 14px;
+  color: #fff;
+}
+  
 }

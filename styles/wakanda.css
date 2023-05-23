@@ -243,6 +243,7 @@ footer{
     background-size: cover;
     height: 600px;
     color: var(--White-color);
+    /*Background: linear-gradient(180deg, #3D2DA6 0%, #02174090.43%);*/
 }
 
 footer .footer {
@@ -283,30 +284,43 @@ footer .footer_content{
     width: 50%;
 }
 
-footer .footer_text ul li a{
+footer 
+.footer ul li a{
     text-decoration: none;
     color: var(--White-color);
     font-family: "Cantarell";   
 }
 
-footer .footer_text ul li{
+footer
+.footer
+ul
+li
+a{
+    display: flex;
+}
+
+.footer
+.foot 
+ul li{
     display: block;
     text-decoration: none;
-}
-
-footer .footer_text h2{
-    text-decoration: none;
-    font-family: "Cantarell" ;
-    font-size: 16px;
-    letter-spacing: 28%;
-}
-
-.down{
     margin-left: 0;
-    font-family: 'cantarell';
+}
+
+footer h2{
+    text-decoration: none;
+    font-family: "Cantarell";
+    letter-spacing: 28%;
+    margin-left: 0;
     font-size: 22px;
     color: #fff;
 }
+
+
+ul {
+    display: flex;
+}
+
 
 .icon{
 margin-right: 120px;
@@ -325,11 +339,11 @@ footer
     align-items: center;
     justify-content: space-between;
    
-    margin-top: -10px;
+    margin-top: -100px;
     right: 20px;
     font-family: "Cantarell";
     font-size: 12px;
-    margin-right: 20%;
+    margin-right: 22%;
     margin-left: 600px;
 }
 
